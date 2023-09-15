@@ -15,7 +15,6 @@ bool bsp(Point const a, Point const b, Point const c, Point const point)
     return (alpha >= 0 && beta >= 0 && gamma >= 0);
 }
 
-
 int main( void ) {
 	// Create points for the triangle vertices and the point to check
     Point a(0, 0);
