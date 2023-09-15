@@ -163,10 +163,6 @@ const Fixed &Fixed::max(Fixed const &firstNum, Fixed const &secondNum)
 }
 
 //Getter and setters
-int Fixed::getRawBits( void ) const
-{
-	return (rawBits);
-}
 
 void Fixed::setRawBits( int const raw )
 {
